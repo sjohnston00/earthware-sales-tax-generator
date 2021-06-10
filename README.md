@@ -5,7 +5,7 @@
 - Once cloned change into the new directory using `cd`
 - Install all dependencies with `npm install`
 - Once installed run the app with `npm run start`
-- This should then open a browser window on `localhost:3000` but if it doesnt open a new browser tab a open this address `http://localhost:3000`
+- This should then open a browser window on `localhost:3000` but if it doesn't, open a new browser tab a open this address `http://localhost:3000`
 
 ---
 
