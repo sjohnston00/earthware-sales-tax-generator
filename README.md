@@ -1,7 +1,7 @@
 # How to Run #
 
 - Open terminal window
-- Clone the code to your local machiine using `git clone https://github.com/sjohnston00/earthware-sales-tax-generator`
+- Clone the code to your local machiine using `git clone https://github.com/sjohnston00/earthware-sales-tax-generator.git`
 - Once cloned change into the new directory using `cd`
 - Install all dependencies with `npm install`
 - Once installed run the app with `npm run start`
