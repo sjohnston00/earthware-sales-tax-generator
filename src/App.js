@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Scenario from "./Scenario";
+
+import { TYPES, scenario1, scenario2, scenario3 } from "./items";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Scenario number={1} data={scenario1} types={TYPES} />
+      <Scenario number={2} data={scenario2} types={TYPES} />
+      <Scenario number={3} data={scenario3} types={TYPES} />
     </div>
   );
 }
